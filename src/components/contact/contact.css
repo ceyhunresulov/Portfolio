@@ -1,0 +1,183 @@
+#contact {
+  margin-top: 5rem;
+  padding-top: 3rem;
+  box-sizing: border-box;
+}
+.contact-title {
+  text-align: center;
+}
+.contact-content {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+.contact-box {
+  background-color: var(--color-bg-variant);
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  border-radius: 30px;
+  height: 200px;
+  transition: all ease .5s;
+}
+.contact-box:hover {
+  background-color: transparent;
+  border: 1px solid var(--color-bg-variant);
+}
+.contact-icon {
+  font-size: 1.5rem;
+  color: var(--color-white);
+}
+.contact-box-title {
+  font-size: 1.2rem;
+  color: var(--color-white);
+}
+.contact-gmail {
+  color: var(--color-light);
+}
+.contact-phone {
+  color: var(--color-light);
+}
+.send-message {
+  color: var(--color-primary);
+}
+.contact-form {
+  width: 50%;
+}
+.input {
+  font-size: 1.5rem;
+  font-weight: 200;
+  background: none;
+  border: none;
+  padding: 1rem 0.5rem;
+  box-sizing: border-box;
+  border: 1px solid var(--color-primary);
+  border-radius: 5px;
+  width: 100%;
+  color: var(--color-white);
+}
+.email-box {
+  margin: 1rem 0;
+}
+.form-btn {
+  font-size: 1rem;
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  padding: 0.7rem 0.7rem;
+  box-sizing: border-box;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+.form-btn:hover {
+  background-color: var(--color-white);
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+/* ////////// responsive */
+
+@media screen and (max-width: 992px) {
+  .input {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #contact {
+    padding-top: 1rem;
+  }
+  .contact-content {
+    margin-top: 2rem;
+    display: block;
+  }
+  .contact-info {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  .contact-box {
+    background-color: var(--color-bg-variant);
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: 180px;
+    width: 200px;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .input {
+    font-size: 1rem;
+    font-weight: 200;
+    background: none;
+    border: none;
+    padding: 1rem 0.5rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    width: 100%;
+    color: var(--color-white);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #contact {
+    padding-top: 1rem;
+  }
+  .contact-content {
+    margin-top: 1rem;
+  }
+  .contact-info {
+    margin-bottom: 1rem;
+  }
+  .contact-box {
+    background-color: var(--color-bg-variant);
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: 150px;
+    width: 48%;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .input {
+    font-size: 0.7rem;
+    font-weight: 200;
+    background: none;
+    border: none;
+    padding: 0.7rem 0.5rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    width: 100%;
+    color: var(--color-white);
+  }
+  .contact-gmail {
+    display: none;
+  }
+  .form-btn {
+    font-size: 0.7rem;
+    padding: 0.5rem 0.5rem;
+  }
+}

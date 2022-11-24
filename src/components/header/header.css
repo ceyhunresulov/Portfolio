@@ -1,0 +1,112 @@
+.header-container {
+  height: 100vh;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  text-align: center;
+}
+.btn {
+  text-decoration: none;
+  border: 1px solid var(--color-primary);
+  margin: 0.7rem;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  color: var(--color-primary);
+  transition: all ease 0.5s;
+}
+.btn-talk {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+}
+.btns {
+  display: flex;
+  margin-top: 2rem;
+}
+.btn:hover {
+  background-color: var(--color-white);
+  color: var(--color-bg);
+}
+.sosial-box {
+  margin-top: 3rem;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+.sosial-icons {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.sosial-icon {
+  margin-top: 10px;
+}
+.sosial-icons a {
+  color: var(--color-primary);
+  font-size: 1.2rem;
+}
+.me-img-box {
+  height: 80%;
+  width: 250px;
+  /* border-top-left-radius: 50%;
+  border-top-right-radius: 50%; */
+  border-radius: 20px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.me-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.scroll-down {
+  position: absolute;
+  right: -2.4rem;
+  bottom: 2rem;
+  transform: rotate(90deg);
+  color: var(--color-primary);
+  font-size: 1.2rem;
+}
+
+/* /////////// responseve */
+@media screen and (max-width: 1200px) {
+  .container {
+    width: var(--container-width-md);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: var(--container-width-ms);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    height: 100vh;
+    margin-top: 2rem;
+  }
+  .sosial-box {
+    margin-top: 6rem;
+    height: 200px;
+  }
+  .me-img-box {
+    height: 100%;
+    width: 180px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+  }
+  .sosial-icons a {
+    font-size: 1rem;
+  }
+  .title {
+   margin-top: 3rem;
+  }
+}
