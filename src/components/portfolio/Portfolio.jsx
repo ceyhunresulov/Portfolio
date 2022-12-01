@@ -24,7 +24,13 @@ function Portfolio() {
       github: "https://github.com/ceyhunresulov/react-todo-list",
       demo: "  https://636cd06288a2fc7aef18cfe9--reacttt-todolist.netlify.app/",
     },
-  
+    {
+      id: 4,
+      title: "Personal Chat With JavaScript",
+      img: "contact.png",
+      github: "https://github.com/ceyhunresulov/JS-Chat",
+      demo: "https://personal-chat-js.netlify.app",
+    },
   ]);
   return (
     <section id="portfolio" className="container">
