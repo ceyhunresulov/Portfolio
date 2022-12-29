@@ -31,6 +31,13 @@ function Portfolio() {
       github: "https://github.com/ceyhunresulov/JS-Chat",
       demo: "https://personal-chat-js.netlify.app",
     },
+    {
+      id: 4,
+      title: "Weather Forecast Site with JavaScript",
+      img: "weather.png",
+      github: "https://github.com/ceyhunresulov/weather-forecast-js",
+      demo: "https://weatherforecast-javascript.netlify.app/",
+    },
   ]);
   return (
     <section id="portfolio" className="container">
