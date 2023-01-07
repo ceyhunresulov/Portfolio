@@ -38,6 +38,13 @@ function Portfolio() {
       github: "https://github.com/ceyhunresulov/weather-forecast-js",
       demo: "https://weatherforecast-javascript.netlify.app/",
     },
+    {
+      id: 5,
+      title: "Random Color Background with JavaScript",
+      img: "bg_color.png",
+      github: "https://github.com/ceyhunresulov/bg-color-js",
+      demo: "https://js-bg-color.netlify.app/",
+    },
   ]);
   return (
     <section id="portfolio" className="container">
