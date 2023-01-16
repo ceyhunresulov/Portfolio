@@ -45,6 +45,13 @@ function Portfolio() {
       github: "https://github.com/ceyhunresulov/bg-color-js",
       demo: "https://js-bg-color.netlify.app/",
     },
+    {
+      id: 6,
+      title: "Snow and Slider with JavaScript",
+      img: "snow.png",
+      github: "https://github.com/ceyhunresulov/slider-js",
+      demo: "https://snow-slider.netlify.app/",
+    },
   ]);
   return (
     <section id="portfolio" className="container">
