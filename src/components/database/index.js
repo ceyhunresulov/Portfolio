@@ -62,7 +62,16 @@ const data = [
     type: "react",
     github: "https://github.com/ceyhunresulov/currency-converter",
     demo: "https://currencyconverter-react.netlify.app/",
-  }
+  },
+  {
+    id: 9,
+    title: "Ecommerce  With React-Redux",
+    img: "techno.png",
+    type: "react",
+    github: "https://github.com/ceyhunresulov/techno-react-redux",
+    demo: "https://techno-react-redux.netlify.app/",
+  },
+
 ].sort((a, b) => b.id - a.id);
 
 export default data;
