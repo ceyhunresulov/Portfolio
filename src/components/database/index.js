@@ -8,14 +8,6 @@ const data = [
     demo: "https://calculator-js-pro.netlify.app/",
   },
   {
-    id: 2,
-    title: "Movies with React",
-    img: "movies.png",
-    type: "react",
-    github: "https://github.com/ceyhunresulov/react-movies",
-    demo: "https://popular-movi.netlify.app/",
-  },
-  {
     id: 3,
     title: "Personal Chat With JavaScript",
     img: "contact.png",
@@ -71,7 +63,22 @@ const data = [
     github: "https://github.com/ceyhunresulov/techno-react-redux",
     demo: "https://techno-react-redux.netlify.app/",
   },
-
+  {
+    id: 10,
+    title: "Tic Tac Toe  With JavaScript",
+    img: "xo.png",
+    type: "js",
+    github: "https://github.com/ceyhunresulov/x-o--js",
+    demo: "https://x-o-js.netlify.app/",
+  },
+  {
+    id: 11,
+    title: "Search  With JavaScript",
+    img: "search.png",
+    type: "js",
+    github: "https://github.com/ceyhunresulov/search-bar-js",
+    demo: "https://searchbar-js.netlify.app/",
+  },
 ].sort((a, b) => b.id - a.id);
 
 export default data;
