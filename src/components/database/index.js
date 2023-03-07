@@ -79,6 +79,15 @@ const data = [
     github: "https://github.com/ceyhunresulov/search-bar-js",
     demo: "https://searchbar-js.netlify.app/",
   },
+  {
+    id:12,
+    title: 'Wolt Clone',
+    img: 'wolt.png',
+    type: 'react',
+    github:'https://github.com/ceyhunresulov/wolt',
+    demo: 'https://wolt-clone.netlify.app/'
+
+  }
 ].sort((a, b) => b.id - a.id);
 
 export default data;
