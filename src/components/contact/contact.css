@@ -12,8 +12,10 @@
   justify-content: space-around;
 }
 .contact-info {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
 }
 .contact-box {
   background-color: var(--color-bg-variant);
@@ -26,7 +28,7 @@
   box-sizing: border-box;
   border-radius: 30px;
   height: 200px;
-  transition: all ease .5s;
+  transition: all ease 0.5s;
 }
 .contact-box:hover {
   background-color: transparent;
@@ -103,8 +105,10 @@ input:focus {
     display: block;
   }
   .contact-info {
-    flex-direction: row;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     margin-bottom: 2rem;
   }
   .contact-box {

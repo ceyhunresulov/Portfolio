@@ -1,7 +1,9 @@
 import "./experience.css";
-import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
+import { AiFillHtml5 } from "react-icons/ai";
 import { BiGitBranch } from "react-icons/bi";
 import { DiCss3 } from "react-icons/di";
+import { RiNextjsFill } from "react-icons/ri";
+import { FaNodeJs } from "react-icons/fa";
 import {
   SiSass,
   SiBootstrap,
@@ -10,6 +12,9 @@ import {
   SiTailwindcss,
   SiRedux,
   SiMongodb,
+  SiMui,
+  SiTypescript,
+  SiExpress,
 } from "react-icons/si";
 
 function Experience() {
@@ -41,8 +46,16 @@ function Experience() {
             <span className="skill">Tailwind</span>
           </li>
           <li className="skill-item">
+            <SiMui className="check-icon" />
+            <span className="skill">MUI</span>
+          </li>
+          <li className="skill-item">
             <SiJavascript className="check-icon" />
             <span className="skill">JavaScript</span>
+          </li>{" "}
+          <li className="skill-item">
+            <SiTypescript className="check-icon" />
+            <span className="skill">TypeScript</span>
           </li>
           <li className="skill-item">
             <SiReact className="check-icon" />
@@ -51,6 +64,18 @@ function Experience() {
           <li className="skill-item">
             <SiRedux className="check-icon" />
             <span className="skill">Redux</span>
+          </li>{" "}
+          <li className="skill-item">
+            <RiNextjsFill className="check-icon" />
+            <span className="skill">Next.js </span>
+          </li>
+          <li className="skill-item">
+            <FaNodeJs className="check-icon" />
+            <span className="skill">Node.js </span>
+          </li>{" "}
+          <li className="skill-item">
+            <SiExpress className="check-icon" />
+            <span className="skill">Express.js </span>
           </li>
           <li className="skill-item">
             <SiMongodb className="check-icon" />
@@ -59,10 +84,6 @@ function Experience() {
           <li className="skill-item">
             <BiGitBranch className="check-icon" />
             <span className="skill">Git</span>
-          </li>
-          <li className="skill-item">
-            <AiFillGithub className="check-icon" />
-            <span className="skill">GitHub</span>
           </li>
         </ul>
       </div>

@@ -1,11 +1,11 @@
 function Cv() {
   return (
     <div className="btns">
-      <a href="./CeyhunResulov.pdf" className="btn" download>
+      <a href="./CeyhunRasulov.pdf" className="btn" download>
         Download Cv
       </a>
       <a href="#contact" className="btn btn-talk">
-        Let's Talk
+        Contact
       </a>
     </div>
   );

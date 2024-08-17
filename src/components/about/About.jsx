@@ -34,15 +34,19 @@ function About() {
         </li>
       </ul>
       <p className="about-me">
-        My name is Ceyhun. I am 22 years old. I studied computer engineering in
-        Azerbaijan Technical University with bachelor degree and currently I
-        study Knowledge Acqustion in Azerbaijan Technical University Master
-        degree. <br />
-         I am Front-end Developer. I learned and practiced different
-        technologies and frameworks.
+        My name is Jeyhun, and I’m a 24-year-old software developer with a
+        Bachelor’s degree in Computer Engineering and a recently completed
+        Master’s degree in Knowledge Acquisition, both from Azerbaijan Technical
+        University. <br />I am a developer with more than 1.5+ years of
+        experience in Frontend, Also Backend experience. I have used modern
+        technologies and frameworks in my experience. I approach problem solving
+        with analytical thinking, understand and optimize complex issues. In
+        addition, my openness to continuous learning and self-improvement allows
+        me to adapt to technological changes. I'm sure I can add a lot to your
+        company and team as I continue to learn.
       </p>
       <a href="#contact" className="btn btn-talk btn-about">
-        Lets's Talk
+        Contact
       </a>
     </section>
   );

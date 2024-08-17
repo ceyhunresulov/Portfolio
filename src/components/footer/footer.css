@@ -1,6 +1,6 @@
 .footer {
-  background-color: var(--color-primary);
-  height: 250px;
+  background-color: var(--color-bg-variant);
+  height: 150px;
   position: relative;
   z-index: 1;
   display: flex;
@@ -15,12 +15,11 @@
 }
 .nav-foot-link {
   font-size: 1.2rem;
-  color: var(--color-bg);
+  color: white;
   transition: all ease 0.5s;
 }
 .nav-foot-link:hover {
-  color: var(--color-white);
-  font-size: 1.4rem;
+  color: var(--color-primary);
 }
 .footer-sosial {
   display: flex;
@@ -58,7 +57,7 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    height: 150px;
+    height: 100px;
   }
   .nav-foot {
     width: 70%;
