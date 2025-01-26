@@ -37,7 +37,7 @@ function About() {
         My name is Jeyhun, and I’m a 24-year-old software developer with a
         Bachelor’s degree in Computer Engineering and a recently completed
         Master’s degree in Knowledge Acquisition, both from Azerbaijan Technical
-        University. <br />I am a developer with more than 1.5+ years of
+        University. <br />I am a developer with more than 2+ years of
         experience in Frontend, Also Backend experience. I have used modern
         technologies and frameworks in my experience. I approach problem solving
         with analytical thinking, understand and optimize complex issues. In

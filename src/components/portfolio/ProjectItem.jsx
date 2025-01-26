@@ -8,6 +8,7 @@ function ProjectItem({ project }) {
       </div>
       <p className="pro-title">{project.title}</p>
       <p className="pro-desc">{project.desc}</p>
+      <p className="pro-desc">{project.tags}</p>
       <div className="pro-buttons">
         {(project.type === "private" && (
           <a className="pro-github pro-btn">Private</a>

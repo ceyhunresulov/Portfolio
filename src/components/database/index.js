@@ -6,7 +6,7 @@ const data = [
     type: "js",
     github: "https://github.com/ceyhunresulov/js-calculator",
     demo: "https://calculator-js-pro.netlify.app/",
-    desc: "#vanilla.js",
+    tags: "#vanilla.js",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const data = [
     type: "js",
     github: "https://github.com/ceyhunresulov/JS-Chat",
     demo: "https://personal-chat-js.netlify.app",
-    desc: "#vanilla.js",
+    tags: "#vanilla.js",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const data = [
     type: "js",
     github: "https://github.com/ceyhunresulov/weather-forecast-js",
     demo: "https://weatherforecast-javascript.netlify.app/",
-    desc: "#vanilla.js",
+    tags: "#vanilla.js",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const data = [
     type: "js",
     github: "https://github.com/ceyhunresulov/slider-js",
     demo: "https://snow-slider.netlify.app/",
-    desc: "#vanilla.js",
+    tags: "#vanilla.js",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const data = [
     type: "react",
     github: "https://github.com/ceyhunresulov/techno-react-redux",
     demo: "https://techno-react-redux.netlify.app/",
-    desc: "#react  #redux  #tailwind",
+    tags: "#react  #redux  #tailwind",
   },
   {
     id: 6,
@@ -51,16 +51,27 @@ const data = [
     type: "react",
     github: "https://github.com/ceyhunresulov/wolt",
     demo: "https://wolt-clone.netlify.app/",
-    desc: "#react  #redux  #tailwind",
+    tags: "#react  #redux  #tailwind",
   },
   {
     id: 7,
-    title: "Edinify (BMS)",
+    title: "Edinify (LMS)",
     img: "edinify.png",
     type: "private",
+    desc: "Edinify is a Learning Management System (LMS) designed to streamline the management and organization of courses for educational institutions and training organizations.",
     github: "",
     demo: "https://www.edinify.com/",
-    desc: "#real-project #full-stack #react  #redux #mui #node.js #express.js #mongodb ",
+    tags: "#real-project #full-stack #react  #redux #mui #node.js #express.js #mongodb ",
+  },
+  {
+    id: 8,
+    title: "Robitesk",
+    img: "robitesk.jpg",
+    desc: "Robitesk is Social Media & E-commerce & Online Courses. An app consisting of several modules designed for children. This app covers: social media, e-commerce and online courses.",
+    type: "private",
+    github: "",
+    demo: "",
+    tags: "#real-project #mern-stack #full-stack #react #redux #mui #node.js #express.js #mongodb #socket.io ",
   },
 ].sort((a, b) => b.id - a.id);
 
